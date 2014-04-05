@@ -21,7 +21,7 @@ exports.template = function( grunt, init, done ) {
     {
       name   : 'ipaddress',
       message: 'IP Address',
-      default: '192.368.33.10'
+      default: '192.168.33.10'
     },
   ], function( err, props ) {
     var files = init.filesToCopy( props );
