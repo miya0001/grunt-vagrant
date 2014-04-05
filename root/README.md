@@ -24,7 +24,7 @@ export AWS_EC2_KEYPAIR_PATH="/path/to/.ssh/id_rsa"
 4. Clone the repository into a local directory.
     * `git clone https://github.com/xxx`
 
-### Launch with Vagrant
+### Launch
 
 ```
 vagrant up --provider=aws
